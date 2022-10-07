@@ -14,7 +14,13 @@
 body{
     background: var(--colorBackground);
 }
-.container,.marcos,.marcos::before,
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: var(--centrado) scale(0.8);
+}
+.marcos,.marcos::before,
 .marcos::after, .centro,.pico1,.pico1::before,.pico1::after,.pico2,
 .pico2::before,.pico2::after,.pico1_1,.pico1_1::before,.pico1_1::after,
 .pico2_1,.pico2_1::before,.pico2_1::after
@@ -24,6 +30,7 @@ body{
     top: 50%;
     transform: var(--centrado);
 }
+
 .diente1,
 .diente2,.diente3,.diente4,.diente5,.diente6,.diente7,
 .diente8,.diente9,.diente10,.diente11,.diente12,.diente13,.diente14,
@@ -43,6 +50,7 @@ body{
     /* background: url(/images/uni.png) no-repeat center center; */
     background-color: var(--colorBackground);
     background-size: contain;
+    
 }
 .marcos{
     background-color: transparent;
