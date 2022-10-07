@@ -1823,6 +1823,6 @@ body{
 }
 @media(max-width:600px){
     .autor::after{
-        font-size:15pt;
+        font-size:14pt;
     }
 }
