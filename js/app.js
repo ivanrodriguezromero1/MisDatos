@@ -36,7 +36,7 @@ var phone = window.matchMedia('(max-width:480px)').matches;
     ];
     let grid = document.querySelectorAll('.grid-item');
     for(let i=0;i<grid.length;i++){
-        grid[i].style.background= "url('/Assets/imgs/logo"+imgs[i]+"') no-repeat";
+        grid[i].style.background= "url('/Resume/Assets/imgs/logo"+imgs[i]+"') no-repeat";
         grid[i].style.backgroundSize=phone?"40px":"80px";
     }
 })();
@@ -92,7 +92,7 @@ function addIcons(){
 function StyleIcon(array,etiqueta,size){
     let query = document.querySelectorAll(etiqueta);
     for(let i = 0; i<query.length; i++){
-        query[i].style.background = "url('/Assets/imgs/logo" + array[i] + "') no-repeat";
+        query[i].style.background = "url('/Resume/Assets/imgs/logo" + array[i] + "') no-repeat";
         query[i].style.backgroundSize=size;
     }
 }
